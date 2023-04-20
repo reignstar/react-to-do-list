@@ -1,0 +1,318 @@
+.navbar {
+    background:rgb(215, 236, 243);
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.navbar-expand .navbar-nav .nav-link{
+    color: black;
+    color: black;
+    border: 0;
+}
+.navbar-expand .navbar-nav .nav-link:hover {
+    color:rgb(115, 218, 231);
+}
+
+.navbar-expand .navbar-nav .nav-link:focus {
+    color:rgb(115, 218, 231);
+    outline: 0;
+}
+#Home{
+    background:rgb(215, 236, 243);
+    margin-top: 80px;
+    
+}
+
+.btn-link-1{
+    display:inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 0 28px;
+    background:blue;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #fff;
+    border-radius: 25px;
+    transition: all .3s;
+}
+.btn-link-2{
+    display:inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 0 28px;
+    background:none;
+    border: solid#d30606; 
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color:#d30606; 
+    border-radius: 25px;
+    transition: all .3s;
+}
+.btn-link-2:focus{
+color:white;
+background-color: #d30606; 
+outline:0;
+border: solid#d30606; 
+}
+.btn-link-2:hover{
+  background-color: #d30606;
+  border: solid#d30606; 
+  color:white; 
+}
+.btn-link-3{
+    display:inline-block;
+    height: 50px;
+    margin: 0 5px;
+    padding: 0 28px;
+    background:#d30606;
+    border: solid#d30606; 
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 48px;
+    color:white; 
+    border-radius: 4px;
+    transition: all .3s;
+}
+.btn-link-3:focus{
+  color:white;
+  background-color: #b41818; 
+  outline:0;
+  border: solid#b41818; 
+  outline:0; 
+  }
+  .btn-link-3:hover{
+    background-color: #b41818; 
+    outline:0;
+    border: solid#b41818; 
+    outline:0;
+    color:white; 
+  }
+  #Services{
+    margin-top: 100px;
+  }
+.portfolio-box-image {
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  
+  .portfolio-box-image img {
+    -o-transition: all .8s;
+    -moz-transition: all .8s;
+    -webkit-transition: all .8s;
+    -ms-transition: all .8s;
+    transition: all .8s;
+  }
+  
+  .portfolio-box-image:hover img {
+    -o-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+  }
+  .Portfolio{
+    width:700px;
+    background: grey;
+  }
+  #Portfolio{
+    margin-top:70px;
+  }
+  #About{
+    background:rgb(215, 236, 243) ;
+    
+  }
+  #about{
+    margin-top: 120px;
+  }
+  #team{
+    margin-top:120px ;
+  }
+  #pricing{
+    margin-top: 120px;
+  }
+  #pricing-text{
+    position:relative;
+    top:40%;
+    left:15%;
+  }
+  #test{
+    margin-top: 120px;
+  }
+  #pxx{
+    position:relative;
+    left: -20px;
+  }
+  .center {
+    border-radius: 25px;
+    background:#d30606;
+    color:white;
+    display:inline-block;
+  }
+  .card{
+    border-bottom:solid rgb(4, 4, 202) ;
+  }
+
+  #card-1{
+    margin:0;
+    position:relative;
+    left:300px;
+    top:70px;
+  
+  }
+  #card-2{
+    margin:0;
+    position:relative;
+    left:450px;
+    top:70px;
+  
+  }
+  #Pricing{
+    background: rgb(241, 238, 238);
+  }
+  #Blog{
+    background: rgb(241, 238, 238);
+  }
+  #is{
+    position:relative;
+    left:32%;
+  }
+  #isl{
+    position: relative;
+    top:-50%
+  }
+  #hc{
+    position: relative;
+    left:29%;
+  }
+  #fp{
+position:relative;
+left:32%;
+  }
+  #aw{
+position:relative;
+left:35%;
+  }
+  .input-field {
+    width:300px;
+  }
+  
+  .btn-link-0{
+    background: blue;
+    color:white;
+    display:flex;
+    width:300px;
+    text-align: center;
+
+  }
+  #Service{
+    background-image: url("https://bootstrapbrain.com/demo/wave/assets/img/cta/cta-img-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #pic1{
+    margin: 0;
+    position: absolute;
+    top: 345%;                      
+    left: 12%;
+    
+  }
+  #pic2{
+    margin: 0;
+    position: absolute;
+    top: 345%;
+    left: 40%;
+    
+  }
+  #pic3{
+    margin: 0;
+    position: absolute;
+    top: 345%;
+    left: 67%;
+    
+  }
+  #pic4{
+    margin: 0;
+    position: absolute;
+    top: 395%;
+    left: 13%;
+    
+  }
+  #pic5{
+    margin: 0;
+    position: absolute;
+    top:473%;
+    left: 13%;
+    
+  }
+  #pic6{
+    margin: 0;
+    position: absolute;
+    top: 435%;
+    left: 40%;
+  }
+  #pic7{
+    margin: 0;
+    position: absolute;
+    top: 393%;
+    left: 67%;
+    
+  }
+  #pic8{
+    margin: 0;
+    position: absolute;
+    top: 467%;
+    left: 67%;
+    
+  }
+
+  #com1{
+    position: relative;
+    top: 180px;
+     left: 80px;
+     z-index: 10000;
+     font-size:80px;
+     color:grey; 
+    opacity: 0.2;
+  }
+  #com2{
+    position: relative;
+    top: 180px;
+    left: 450px;
+    z-index: 10000;
+    font-size:80px;
+    color:grey; 
+    opacity: 0.2;
+  }
+  #com3{
+    position: relative;
+    top: 180px;
+    left: 770px;
+    z-index: 10000;
+    font-size:80px;
+    color:grey; 
+    opacity: 0.2;
+  }
+  .mask1 {
+    -webkit-mask-image: url(https://bootstrapbrain.com/demo/wave/assets/img/hero/hero-blob-1.svg);
+    mask-image: url(https://bootstrapbrain.com/demo/wave/assets/img/hero/hero-blob-1.svg);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+  }
+  .wave-highlight {
+    background: linear-gradient(120deg,#e4a0a1 0%,#e4a0a1 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 20%;
+    background-position: 0 80%;
+}
+  
